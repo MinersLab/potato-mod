@@ -193,14 +193,19 @@ repositories {
         url = uri("https://cursemaven.com")
     }
 
+    maven { // EnderIO
+        url = uri("https://maven.rover656.dev/releases")
+    }
+
 }
 
 dependencies {
     implementation("thedarkcolour:kotlinforforge-neoforge:${property("kff_version")}")
     api("com.tterrag.registrate:Registrate:MC1.21-1.3.0+53")
     jarJar("com.tterrag.registrate:Registrate:MC1.21-1.3.0+53")
-
+    // Compat
+    api("com.enderio:enderio-base:7.0.0-alpha")
+    runtimeOnly("curse.maven:ender-io-64578:5720393")
     // Dev
     runtimeOnly("curse.maven:emi-580555:5619579")
-
 }

@@ -3,7 +3,6 @@ pluginManagement {
         mavenLocal()
         gradlePluginPortal()
         maven { url = uri("https://maven.neoforged.net/releases") }
-        // maven { url = uri("https://maven.parchmentmc.org") }
     }
 }
 

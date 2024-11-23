@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        { "tag": "c:dyes/red" },
+        { "tag": "c:dyes/orange" },
+        { "tag": "c:dyes/yellow" },
+        { "tag": "c:dyes/green" },
+        { "item": "minecraft:potato" },
+        { "tag": "c:dyes/cyan" },
+        { "tag": "c:dyes/blue" },
+        { "tag": "c:dyes/purple" },
+        { "tag": "c:dyes/black" }
+    ],
+    "result": {
+        "id": "potatomod:rainbow_potato",
+        "count": 1
+    }
+}
